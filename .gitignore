@@ -1,0 +1,5 @@
+*-backups/
+*.kicad_pcb-bak
+*.lck
+.history/
+*.kicad_prl
