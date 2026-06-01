@@ -4989,6 +4989,12 @@
 		(uuid "4a1b88fe-5622-4cd1-bc68-2704d37a159d")
 	)
 	(junction
+		(at 269.24 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "668e242c-e60b-4a8e-813a-4161b36fd2ea")
+	)
+	(junction
 		(at 116.84 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4999,6 +5005,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67fb3091-df2d-47b3-92db-b28f309d1c77")
+	)
+	(junction
+		(at 128.27 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ad3a497-f130-43b5-b0ee-dcd699f97923")
 	)
 	(junction
 		(at 227.33 39.37)
@@ -5043,10 +5055,22 @@
 		(uuid "874e821f-469e-43e0-b107-d776dade2e50")
 	)
 	(junction
+		(at 105.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee33f57-c979-4c12-a5e3-d2ee11396e0e")
+	)
+	(junction
 		(at 86.36 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97380777-b602-4663-a331-be4a79a7e0db")
+	)
+	(junction
+		(at 114.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a943026-5c22-42dd-acd4-2f7cb4733be8")
 	)
 	(junction
 		(at 59.69 173.99)
@@ -5185,10 +5209,6 @@
 		(uuid "f000a8ab-575f-4874-984b-83536b770f9c")
 	)
 	(no_connect
-		(at 125.73 58.42)
-		(uuid "f0eeca06-a865-4dbb-8007-6007253dff93")
-	)
-	(no_connect
 		(at 229.87 123.19)
 		(uuid "f166a420-42ae-4b41-8662-8e2737dc04d0")
 	)
@@ -5299,6 +5319,16 @@
 			(type default)
 		)
 		(uuid "0e7d9c5e-e7b7-4a44-8d11-ee9ddcf55da3")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea1c64b-cc44-49ad-9138-8109f4a88dc0")
 	)
 	(wire
 		(pts
@@ -5459,6 +5489,16 @@
 			(type default)
 		)
 		(uuid "3e84a615-92ba-4693-8e5f-fcd8482fbcff")
+	)
+	(wire
+		(pts
+			(xy 128.27 119.38) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f059534-f7af-44cb-a9db-c19b69923363")
 	)
 	(wire
 		(pts
@@ -5632,6 +5672,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 120.65) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7c5d38-77d7-4af7-9f23-bc599f710750")
+	)
+	(wire
+		(pts
 			(xy 20.32 30.48) (xy 20.32 35.56)
 		)
 		(stroke
@@ -5772,6 +5822,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778b17ea-0758-40ea-b531-9012a443d4c1")
+	)
+	(wire
+		(pts
 			(xy 146.05 176.53) (xy 132.08 176.53)
 		)
 		(stroke
@@ -5909,6 +5969,16 @@
 			(type default)
 		)
 		(uuid "9e3dcb42-8240-42e5-b60d-2f30494dfb4f")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a172a3d3-cba6-4d1e-a3e4-eb7cac012242")
 	)
 	(wire
 		(pts
@@ -6222,6 +6292,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d545b669-3220-4a5f-ac1e-732fe5e95568")
+	)
+	(wire
+		(pts
 			(xy 270.51 125.73) (xy 254 125.73)
 		)
 		(stroke
@@ -6239,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "d5f62197-0d91-4c61-8f1f-98e6ce17552f")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d907f56d-d312-447b-85d7-d48dc8354a5d")
 	)
 	(wire
 		(pts
@@ -6610,7 +6700,7 @@
 		)
 		(uuid "7a1703af-a1db-4481-b7e7-78e731e90846")
 	)
-	(label "VBUS"
+	(label "VBUSF"
 		(at 242.57 91.44 180)
 		(effects
 			(font
@@ -6650,6 +6740,16 @@
 		)
 		(uuid "bb50aab0-c6cc-45ae-8890-beda48bba07f")
 	)
+	(label "GPIO9"
+		(at 134.62 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1cd5e4-74d8-4ed7-baef-706036797d8e")
+	)
 	(label "USBD+"
 		(at 137.16 129.54 0)
 		(effects
@@ -6679,6 +6779,16 @@
 			(justify left bottom)
 		)
 		(uuid "f81ab31d-f31c-4f0d-aac3-057e9a3a778b")
+	)
+	(label "VBUSF"
+		(at 138.43 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffc965eb-5e4a-422b-b6be-ecd6c5520113")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6978,7 +7088,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 87.376 118.364 90)
+			(at 87.122 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7463,6 +7573,98 @@
 			(project "temp-humidity sensor"
 				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "290a3569-31ba-4a63-8f36-f94edb898cae")
+		(property "Reference" "C12"
+			(at 131.318 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 131.318 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.2352 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C513577"
+			(at 128.27 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "177c89f5-fc8d-4418-9539-90a02cc3730e")
+		)
+		(pin "1"
+			(uuid "d7804c80-7015-4165-a54a-7a72332f0200")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8055,10 +8257,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41e3a0a1-cdeb-4ad7-bf89-22e37800021d")
 		(property "Reference" "U4"
-			(at 107.0611 119.38 0)
+			(at 100.076 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8069,7 +8270,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 107.0611 121.92 0)
+			(at 99.822 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9247,7 +9448,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 87.376 115.57 90)
+			(at 87.122 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9822,6 +10023,165 @@
 			(project "temp-humidity sensor"
 				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 128.27 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "802ea06c-6278-4444-be65-82383cd5a403")
+		(property "Reference" "#PWR031"
+			(at 128.27 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 128.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2faeaa55-8ee5-4d1f-969a-6dee97704fb1")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 269.24 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80e7d1d6-35ff-4d26-8a1b-64fab8e44708")
+		(property "Reference" "#PWR029"
+			(at 269.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 269.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c095b4b9-9a2c-4b81-9155-f195905de072")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 120.65 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11125,6 +11485,96 @@
 			(project "temp-humidity sensor"
 				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b48da2e3-941d-485e-ba19-c6724bb5c94e")
+		(property "Reference" "R15"
+			(at 115.57 108.966 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 125.476 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.65 109.982 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 120.65 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5f0fd90-a1c2-40b4-89c5-0ce2584a01f7")
+		)
+		(pin "2"
+			(uuid "09d7287b-8cc0-457a-a01f-330e5b268bc3")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11733,6 +12183,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 114.3 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0055de0-5d36-4fbb-90fa-f1177663d0a0")
+		(property "Reference" "C11"
+			(at 108.966 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 108.712 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 115.2652 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C513577"
+			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a94c093-5ac4-4ab9-87bc-68716c731ef4")
+		)
+		(pin "1"
+			(uuid "2f9d151d-8756-4c63-84ec-78b7482d1a9d")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 46.99 154.94 0)
 		(unit 1)
@@ -11923,6 +12465,85 @@
 			(project "temp-humidity sensor"
 				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 114.3 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d69925bd-de69-4799-b6ca-52695abccdf6")
+		(property "Reference" "#PWR030"
+			(at 114.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 114.3 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f53a92d-a75a-441d-8b03-5a4953dc7e98")
+		)
+		(instances
+			(project "temp-humidity sensor"
+				(path "/0c54e408-3e32-422c-ba3e-0ce74a101468"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
