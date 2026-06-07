@@ -261,7 +261,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V2.0"
+      "sch_revision": "V3.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -467,7 +467,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
@@ -481,13 +481,13 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "error",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -563,9 +563,9 @@
       {
         "bus_width": 12,
         "name": "USB",
-        "pcb_color": "rgb(53, 255, 66)",
+        "pcb_color": "rgb(88, 144, 255)",
         "priority": 3,
-        "schematic_color": "rgb(53, 255, 66)",
+        "schematic_color": "rgb(88, 144, 255)",
         "tuning_profile": "",
         "wire_width": 6
       }
@@ -606,7 +606,15 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "VSYS"
+        "pattern": "V*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "S*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB*"
       }
     ]
   },
@@ -792,7 +800,7 @@
         "uuid": "0c54e408-3e32-422c-ba3e-0ce74a101468"
       }
     ],
-    "used_designators": "#FLG4,TP1-6",
+    "used_designators": "TP4,SW3",
     "variants": []
   },
   "sheets": [
