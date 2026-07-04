@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.8
+          "height": 5.7,
+          "width": 5.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -261,7 +261,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V3.0"
+      "sch_revision": "V2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -800,7 +800,7 @@
         "uuid": "0c54e408-3e32-422c-ba3e-0ce74a101468"
       }
     ],
-    "used_designators": "TP6-10",
+    "used_designators": "TP6-10,SW3,#PWR20,#PWR24,#PWR27,#PWR33-35,H1-4,C13,U6",
     "variants": []
   },
   "sheets": [
